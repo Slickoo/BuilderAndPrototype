@@ -42,8 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\HtmlReportBuilder.cs" />
+    <Compile Include="Builder\IReportBuilder.cs" />
+    <Compile Include="Builder\Report.cs" />
+    <Compile Include="Builder\ReportDirector.cs" />
+    <Compile Include="Builder\TxtReportBuider.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype\AdditionalInfo.cs" />
+    <Compile Include="Prototype\Book.cs" />
+    <Compile Include="Prototype\IPrototype.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
